@@ -6,7 +6,7 @@ type CheckController struct {
 	beego.Controller
 }
 
-func (c *CheckController) Get() {
+func (c *CheckController) Post() {
 	response := map[string]string{
 		"Check": "Passed",
 	}
